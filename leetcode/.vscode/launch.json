@@ -1,0 +1,18 @@
+{
+    "configurations": [
+    {
+        "name": "(lldb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "preLaunchTask": "debug-path",
+        "postDebugTask": "move-dsym",
+        "MIMode": "lldb"
+    }
+    ]
+}
