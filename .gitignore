@@ -4,3 +4,5 @@
 # 忽略文件夹
 .idea/
 cmake-build-debug/
+
+.DS_Store
